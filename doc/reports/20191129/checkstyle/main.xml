@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.25">
+<file name="/home/gregor/Documents/SEM/src/main/java/logic.Board.java">
+</file>
+<file name="/home/gregor/Documents/SEM/src/main/java/logic.Food.java">
+</file>
+<file name="/home/gregor/Documents/SEM/src/main/java/logic.Snake.java">
+</file>
+<file name="/home/gregor/Documents/SEM/src/main/java/logic.SnakeTail.java">
+</file>
+<file name="/home/gregor/Documents/SEM/src/main/java/logic.Tail.java">
+</file>
+</checkstyle>

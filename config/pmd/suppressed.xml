@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ruleset name="suppressed"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+    <description>Suppress</description>
+    <rule ref="category/java/errorprone.xml">
+        <exclude name="BeanMembersShouldSerialize"/>
+        <exclude name="CloseResource"/>
+    </rule>
+    <!--<rule ref="category/java/errorprone.xml" >-->
+        <!--<exclude name="ignoredAnnotations" />-->
+        <!--<exclude name="closeTargets" />-->
+    <!--</rule>-->
+    <!--<rule ref="category/java/errorprone.xml/BeanMembersShouldSerialize">-->
+        <!--<properties>-->
+            <!--<property name="ignoredAnnotations" value="lombok.Data|lombok.Getter|lombok.Value" />-->
+            <!--<property name="prefix" value="" />-->
+        <!--</properties>-->
+    <!--</rule>-->
+    <!--<rule ref="category/java/errorprone.xml/CloseResource">-->
+        <!--<properties><property name="closeTargets" value=".*"/></properties>-->
+    <!--</rule>-->
+</ruleset>
