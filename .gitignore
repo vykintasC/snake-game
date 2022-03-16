@@ -1,4 +1,4 @@
 .gradle/*
+.vscode/*
 bin/*
 build/*
-.vscode/*
