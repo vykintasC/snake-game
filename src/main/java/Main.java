@@ -17,9 +17,10 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/login.fxml"));
 
-        primaryStage.setScene(new Scene(root));
+        primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.setTitle("Super Snake");
         primaryStage.getIcons().add(new Image("file:snake.jpeg"));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 

@@ -28,7 +28,7 @@ public abstract class AbstractController {
         closeScreen(btn);
         Stage st = new Stage();
         Parent root = FXMLLoader.load(getClass().getResource(url));
-        st.setScene(new Scene(root));
+        st.setScene(new Scene(root, 600, 400));
         st.setTitle("Super Snake");
         st.getIcons().add(new Image("file:snake.jpeg"));
         st.show();

@@ -32,9 +32,9 @@ public class ScoresDao {
         this.dataSource = dbConnect.getDataSource();
         scores = new ArrayList<>();
         scoresOfUser = new ArrayList<>();
-        highScore = -1;
+        highScore = 0;
         scoresOfGameName = new ArrayList<>();
-        gameNameHighScore = -1;
+        gameNameHighScore = 0;
         topGameNamesWithScores = new HashMap<>();
 
     }

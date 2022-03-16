@@ -12,7 +12,7 @@ public class DbConnect {
      * Connect to DB.
      */
     public DbConnect() {
-        this.url = "jdbc:postgresql://localhost:5432/Snake_DB";
+        this.url = "jdbc:postgresql://localhost:5432/snake_db";
         this.username = "postgres";
         this.password = "postgres"; //you can change this to your local PgAdmin user password.
     }
